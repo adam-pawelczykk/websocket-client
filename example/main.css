@@ -1,0 +1,42 @@
+body {
+    font-family: 'Cousine', 'monospace';
+    background: #000;
+    color: #fff;
+    margin: 15px;
+}
+
+
+pre {
+    position: relative;
+    font-family: 'Cousine', 'monospace';
+    font-size: 14px;
+    padding-bottom: 0;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+pre :nth-child(1) {
+    margin-top: 25px;
+}
+
+pre::before {
+     position: absolute;
+     content: '';
+     width: 70px;
+     height: 10px;
+     background-color: #343434;
+     right: 20px;
+     bottom: -35px;
+}
+
+pre::after {
+     position: absolute;
+     content: '';
+     width: 6px;
+     height: 6px;
+     border-radius: 6px;
+     background-color: #343434;
+     right: 5px;
+     bottom: -32px;
+}

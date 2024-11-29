@@ -1,0 +1,6 @@
+export const TYPE_OPEN = 'open'
+export const TYPE_CLOSE = 'close'
+export const TYPE_MESSAGE = 'message'
+export const TYPE_ERROR = 'error'
+export const EVENT_PONG = 'pong'
+export const EVENT_AUTHENTICATE = 'authenticate'
